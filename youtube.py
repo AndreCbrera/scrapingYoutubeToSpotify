@@ -9,7 +9,7 @@ fireFoxOptions.add_argument('--disable-gpu')
 fireFoxOptions.add_argument('--no-sandbox')
 
 driver = webdriver.Firefox(options=fireFoxOptions,executable_path=".\driver\geckodriver.exe")
-url = 'https://youtube.com/playlist?list=PLRKtsQZFhbkSk82_q7lbLnOKi7KFDxgCM'
+url = 'URL_LIST'
 driver.get(url)
 
 postElement = driver.find_element_by_css_selector(".qqtRac > form:nth-child(2) > div:nth-child(1) > div:nth-child(1) > button:nth-child(1) > span:nth-child(3)")
